@@ -13,7 +13,7 @@ services:
     volumes:
       - ./backend/tmp/redis:/data
     ports:
-      - 6379:6379
+      - 6379
   worker:
     build: ./backend
     command: bundle exec sidekiq
@@ -42,12 +42,24 @@ services:
       - db
       - redis
       - worker
+  frontend:
+    build:
+      context: ./frontend
+    depends_on:
+      - backend
+    command: yarn start
+    volumes:
+      - ./frontend:/frontend
+      - ./frontend/node_modules:/frontend/node_modules
+    ports:
+      - "4000:3000"
   nginx:
     image: bitnami/nginx:1.10.2-r1
     volumes:
       - ./config/nginx:/bitnami/nginx/conf/vhosts
     depends_on:
       - backend
+      - frontend
     environment:
       VIRTUAL_HOST: dealer.docker
       VIRTUAL_PORT: 8080
