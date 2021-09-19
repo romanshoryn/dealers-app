@@ -1,0 +1,7 @@
+:queues:
+  - [default, 1]
+  - [dealers, 1]
+:schedule:
+  hello_world:
+    cron: '0 8 * * *'
+    class: Dealers::SyncJob

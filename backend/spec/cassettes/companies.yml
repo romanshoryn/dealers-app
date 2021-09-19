@@ -1,0 +1,126 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://fakerapi.it/api/v1/companies/?_quantity=10&_seed=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - PHP/7.3.16
+      Cache-Control:
+      - no-cache, private
+      Date:
+      - Sun, 19 Sep 2021 18:57:24 GMT
+      X-Ratelimit-Limit:
+      - '30'
+      X-Ratelimit-Remaining:
+      - '29'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Max-Age:
+      - '86400'
+      Access-Control-Allow-Headers:
+      - Content-Type, Authorization, X-Requested-With
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","code":200,"total":10,"data":[{"name":"Ebert and Sons","email":"gbarton@muller.org","vat":"472805508","phone":"+2100901518715","country":"British
+        Virgin Islands","addresses":[{"street":"993 Prosacco Wells","streetName":"Ruecker
+        Union","buildingNumber":"6186","city":"Gordonside","zipcode":"84631","country":"Iraq","county_code":"GE","latitude":-32.350944,"longitude":8.837339},{"street":"7878
+        Koelpin Highway","streetName":"Johns Neck","buildingNumber":"8565","city":"Schmelerberg","zipcode":"71597","country":"Vanuatu","county_code":"CU","latitude":32.814744,"longitude":-146.591708},{"street":"8876
+        Simonis Valley Apt. 966","streetName":"Armand Cove","buildingNumber":"490","city":"Vernerstad","zipcode":"79695","country":"French
+        Southern Territories","county_code":"FM","latitude":32.569776,"longitude":-128.836752}],"website":"http:\/\/ledner.com","image":"http:\/\/placeimg.com\/640\/480\/people","contact":{"firstname":"Emilia","lastname":"Von","email":"sgislason@kuhn.com","phone":"+6565912028423","birthday":"2008-09-20","gender":"female","address":{"street":"3735
+        Kaya Lakes Suite 694","streetName":"Keira Cape","buildingNumber":"953","city":"Kariannefort","zipcode":"97349","country":"Monaco","county_code":"BN","latitude":-71.843162,"longitude":-15.606366},"website":"http:\/\/streich.com","image":"http:\/\/placeimg.com\/640\/480\/people"}},{"name":"Hermann
+        Ltd","email":"vladimir01@yahoo.com","vat":"700434043","phone":"+3762920067100","country":"Mayotte","addresses":[{"street":"66181
+        Sipes Hollow","streetName":"Nienow Inlet","buildingNumber":"6244","city":"Shannaburgh","zipcode":"64774-9395","country":"Saint
+        Helena","county_code":"NC","latitude":-27.198299,"longitude":-92.873801}],"website":"http:\/\/prosacco.org","image":"http:\/\/placeimg.com\/640\/480\/people","contact":{"firstname":"Gia","lastname":"Cremin","email":"adolfo88@gmail.com","phone":"+7470640805085","birthday":"1987-10-27","gender":"female","address":{"street":"172
+        Gutmann Oval","streetName":"Raquel Mountain","buildingNumber":"17427","city":"Predovicmouth","zipcode":"23036-2804","country":"Dominican
+        Republic","county_code":"LC","latitude":-46.115313,"longitude":106.805335},"website":"http:\/\/walker.com","image":"http:\/\/placeimg.com\/640\/480\/people"}},{"name":"Moen
+        and Sons","email":"jackson01@hotmail.com","vat":"577934719","phone":"+4625644473212","country":"Tuvalu","addresses":[{"street":"91722
+        Balistreri Turnpike","streetName":"Kub Shores","buildingNumber":"31356","city":"East
+        Alphonso","zipcode":"72522","country":"British Indian Ocean Territory (Chagos
+        Archipelago)","county_code":"SA","latitude":-39.746937,"longitude":-147.039682},{"street":"6969
+        Hickle Wall Apt. 800","streetName":"Feeney Roads","buildingNumber":"46129","city":"Port
+        Dillon","zipcode":"55624","country":"Mexico","county_code":"BW","latitude":24.044094,"longitude":159.967438},{"street":"10683
+        Tremblay Field","streetName":"Mckayla Bypass","buildingNumber":"9347","city":"North
+        Alexaborough","zipcode":"27464-5152","country":"Congo","county_code":"BD","latitude":43.636337,"longitude":124.308224},{"street":"179
+        Alba Village Suite 262","streetName":"Price Mews","buildingNumber":"93755","city":"Brakusland","zipcode":"01857-6198","country":"Grenada","county_code":"UY","latitude":-82.85697,"longitude":2.938629}],"website":"http:\/\/ebert.com","image":"http:\/\/placeimg.com\/640\/480\/people","contact":{"firstname":"Britney","lastname":"Weber","email":"penelope.stehr@schowalter.org","phone":"+8576584217524","birthday":"2014-12-14","gender":"female","address":{"street":"967
+        Gerlach Mount Apt. 736","streetName":"Arnold Harbors","buildingNumber":"74268","city":"West
+        Allene","zipcode":"95017","country":"Turks and Caicos Islands","county_code":"JE","latitude":-53.368143,"longitude":-150.541374},"website":"http:\/\/yost.com","image":"http:\/\/placeimg.com\/640\/480\/people"}},{"name":"Beahan-Willms","email":"katharina.shanahan@trantow.biz","vat":"4379648871","phone":"+5905392311037","country":"Isle
+        of Man","addresses":[{"street":"24859 Jackie Oval","streetName":"Schowalter
+        Valley","buildingNumber":"4607","city":"North Maciehaven","zipcode":"13507","country":"Gabon","county_code":"LA","latitude":88.480559,"longitude":173.085753}],"website":"http:\/\/klocko.biz","image":"http:\/\/placeimg.com\/640\/480\/people","contact":{"firstname":"Heber","lastname":"Raynor","email":"lila.paucek@zboncak.com","phone":"+3218393235568","birthday":"2004-05-19","gender":"male","address":{"street":"97604
+        Kelsie Estates Apt. 787","streetName":"Vanessa Village","buildingNumber":"958","city":"Bennyview","zipcode":"12699-0635","country":"Andorra","county_code":"SE","latitude":21.754257,"longitude":-88.307011},"website":"http:\/\/bartell.org","image":"http:\/\/placeimg.com\/640\/480\/people"}},{"name":"Casper,
+        Weber and Bradtke","email":"destiney.wuckert@roberts.com","vat":"21502955795","phone":"+4465709875811","country":"Guernsey","addresses":[{"street":"620
+        Eudora Glen","streetName":"Elliot Shoals","buildingNumber":"114","city":"DuBuquechester","zipcode":"86447","country":"Zimbabwe","county_code":"NR","latitude":43.036806,"longitude":61.483965},{"street":"4634
+        Wilhelm Knoll","streetName":"Scotty Isle","buildingNumber":"2430","city":"West
+        Erickfort","zipcode":"57683","country":"Western Sahara","county_code":"GN","latitude":-50.424066,"longitude":107.149971}],"website":"http:\/\/wehner.info","image":"http:\/\/placeimg.com\/640\/480\/people","contact":{"firstname":"Maxie","lastname":"Block","email":"ebayer@gmail.com","phone":"+9140158257874","birthday":"1993-09-03","gender":"female","address":{"street":"2187
+        Bradley Hollow","streetName":"Sanford Curve","buildingNumber":"7156","city":"Port
+        Susannachester","zipcode":"55231","country":"Botswana","county_code":"GD","latitude":36.951773,"longitude":178.726816},"website":"http:\/\/feeney.com","image":"http:\/\/placeimg.com\/640\/480\/people"}},{"name":"Grant-Beahan","email":"hilpert.roselyn@yahoo.com","vat":"13283342","phone":"+9303878427514","country":"Lebanon","addresses":[{"street":"177
+        Michel Lakes","streetName":"Stark Key","buildingNumber":"456","city":"East
+        Mireyaburgh","zipcode":"71355-2359","country":"Svalbard & Jan Mayen Islands","county_code":"NZ","latitude":-37.508463,"longitude":-49.913571},{"street":"36235
+        Murphy Mission","streetName":"Reynolds Plains","buildingNumber":"9715","city":"West
+        Camryn","zipcode":"36653-6620","country":"Taiwan","county_code":"CU","latitude":-89.81761,"longitude":131.978978}],"website":"http:\/\/gerhold.com","image":"http:\/\/placeimg.com\/640\/480\/people","contact":{"firstname":"Etha","lastname":"Balistreri","email":"antonina.gutkowski@hotmail.com","phone":"+9968142054961","birthday":"1944-08-02","gender":"female","address":{"street":"26977
+        Violet Junctions Suite 003","streetName":"Little Pike","buildingNumber":"605","city":"Gwenchester","zipcode":"42589-9125","country":"Mexico","county_code":"QA","latitude":75.149694,"longitude":-169.056111},"website":"http:\/\/mante.com","image":"http:\/\/placeimg.com\/640\/480\/people"}},{"name":"Goldner,
+        Mohr and Morissette","email":"oren21@yahoo.com","vat":"4789653396","phone":"+7528846618143","country":"Western
+        Sahara","addresses":[{"street":"74402 Raul Club","streetName":"Enola Shore","buildingNumber":"4030","city":"Port
+        Daryl","zipcode":"51567-6354","country":"Cayman Islands","county_code":"UZ","latitude":6.893016,"longitude":111.716022},{"street":"5714
+        Wade Oval Apt. 027","streetName":"Hartmann Haven","buildingNumber":"643","city":"East
+        Albertha","zipcode":"54095-1808","country":"Croatia","county_code":"VG","latitude":-2.050193,"longitude":-12.218976},{"street":"931
+        Leuschke Isle Suite 317","streetName":"Roberts Alley","buildingNumber":"8567","city":"Loniefurt","zipcode":"20626","country":"Malaysia","county_code":"GS","latitude":-83.676,"longitude":16.821024},{"street":"20767
+        Hulda Centers","streetName":"Brandt Skyway","buildingNumber":"6512","city":"South
+        Arturofurt","zipcode":"15743-6294","country":"Botswana","county_code":"GT","latitude":-84.998998,"longitude":104.200412}],"website":"http:\/\/heller.org","image":"http:\/\/placeimg.com\/640\/480\/people","contact":{"firstname":"Michelle","lastname":"Reilly","email":"shea95@barrows.com","phone":"+8624461533077","birthday":"1966-07-20","gender":"female","address":{"street":"28912
+        Demarco Inlet Suite 016","streetName":"Leann Rue","buildingNumber":"7912","city":"New
+        Seanhaven","zipcode":"64312","country":"Heard Island and McDonald Islands","county_code":"TR","latitude":-50.040852,"longitude":-135.973644},"website":"http:\/\/watsica.net","image":"http:\/\/placeimg.com\/640\/480\/people"}},{"name":"Wuckert
+        Group","email":"marcelina.crona@ward.com","vat":"670854359","phone":"+4058393581420","country":"Jordan","addresses":[{"street":"946
+        Aimee Unions Suite 676","streetName":"Turner Valleys","buildingNumber":"155","city":"West
+        Norma","zipcode":"53492-9058","country":"Saint Kitts and Nevis","county_code":"TC","latitude":-65.03268,"longitude":-85.845223},{"street":"404
+        Audie Overpass Apt. 796","streetName":"Sandrine Course","buildingNumber":"9545","city":"Considineton","zipcode":"04569-8154","country":"Uganda","county_code":"RE","latitude":60.990813,"longitude":-151.79552},{"street":"14276
+        Hills Center","streetName":"Jacobs Highway","buildingNumber":"2903","city":"Colemouth","zipcode":"16042","country":"Barbados","county_code":"LB","latitude":-25.846184,"longitude":24.748568},{"street":"2625
+        Antwon Stravenue","streetName":"Hansen Ville","buildingNumber":"18419","city":"East
+        Sadye","zipcode":"29146","country":"Madagascar","county_code":"LA","latitude":54.041649,"longitude":-156.6356}],"website":"http:\/\/stroman.net","image":"http:\/\/placeimg.com\/640\/480\/people","contact":{"firstname":"Domingo","lastname":"O''Connell","email":"iwiza@gmail.com","phone":"+9923660292320","birthday":"1964-10-14","gender":"male","address":{"street":"651
+        Kristopher Forges","streetName":"Haag Shores","buildingNumber":"546","city":"Lilianview","zipcode":"88358","country":"American
+        Samoa","county_code":"ST","latitude":75.56283,"longitude":91.444509},"website":"http:\/\/reichel.org","image":"http:\/\/placeimg.com\/640\/480\/people"}},{"name":"Heathcote
+        Inc","email":"lacey31@hotmail.com","vat":"95274192454","phone":"+9339727139844","country":"Croatia","addresses":[{"street":"5901
+        Gleason Brook","streetName":"Shawn Trace","buildingNumber":"3505","city":"Gladysshire","zipcode":"64340-3294","country":"Brazil","county_code":"LA","latitude":17.533765,"longitude":-7.792079},{"street":"30316
+        Kautzer Vista Suite 004","streetName":"Laurence Inlet","buildingNumber":"780","city":"Augustushaven","zipcode":"56489-5744","country":"Nauru","county_code":"GP","latitude":8.31099,"longitude":-63.453833},{"street":"32482
+        Pfeffer Road","streetName":"Prohaska Trafficway","buildingNumber":"73710","city":"Ziemanntown","zipcode":"28960","country":"Guatemala","county_code":"KW","latitude":-42.851969,"longitude":-26.014561},{"street":"614
+        Kilback Streets Apt. 032","streetName":"Zechariah Extension","buildingNumber":"184","city":"Lake
+        Arch","zipcode":"63122-0785","country":"Andorra","county_code":"SZ","latitude":-41.164796,"longitude":-98.93554}],"website":"http:\/\/zulauf.com","image":"http:\/\/placeimg.com\/640\/480\/people","contact":{"firstname":"Luna","lastname":"Gibson","email":"jon.weber@pfannerstill.org","phone":"+3967472638621","birthday":"1978-09-28","gender":"female","address":{"street":"380
+        Hermiston Dale","streetName":"Anjali Glens","buildingNumber":"998","city":"Altenwerthport","zipcode":"27695-4919","country":"Mozambique","county_code":"MZ","latitude":-21.064244,"longitude":161.115918},"website":"http:\/\/vandervort.com","image":"http:\/\/placeimg.com\/640\/480\/people"}},{"name":"Fritsch
+        LLC","email":"vsanford@hotmail.com","vat":"29442335117","phone":"+4525309073579","country":"Burkina
+        Faso","addresses":[{"street":"3136 Wolf Mills Apt. 691","streetName":"Murphy
+        Ports","buildingNumber":"1933","city":"West Rogers","zipcode":"24638-9805","country":"Benin","county_code":"GN","latitude":82.423626,"longitude":-175.890269},{"street":"197
+        Padberg Ramp","streetName":"Brady Key","buildingNumber":"54616","city":"Kayceefort","zipcode":"34465-8255","country":"Estonia","county_code":"AS","latitude":-66.771805,"longitude":73.368685}],"website":"http:\/\/lebsack.info","image":"http:\/\/placeimg.com\/640\/480\/people","contact":{"firstname":"Skyla","lastname":"Legros","email":"dgerlach@hotmail.com","phone":"+1736137709714","birthday":"2013-06-17","gender":"female","address":{"street":"1920
+        Sammie Court Suite 977","streetName":"Heber Junction","buildingNumber":"8861","city":"East
+        Eldred","zipcode":"57519-1520","country":"Rwanda","county_code":"GF","latitude":-82.019838,"longitude":-20.924433},"website":"http:\/\/marquardt.com","image":"http:\/\/placeimg.com\/640\/480\/people"}}]}'
+    http_version: null
+  recorded_at: Sun, 19 Sep 2021 18:57:24 GMT
+recorded_with: VCR 5.1.0
