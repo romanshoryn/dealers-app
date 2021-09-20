@@ -2,7 +2,7 @@
 
 module Dealers
   # Sync synchronizes dealers with third-party service.
-  # TODO(roman): if the number of companies is big enough, plit the companies
+  # TODO(roman): if the number of companies is big enough, split the companies
   # array and call the sync interactor wrapped into a job for every chunk to
   # speed up the syncronization.
   class Sync < ActiveInteraction::Base

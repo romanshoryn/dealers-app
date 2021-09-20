@@ -23,8 +23,8 @@ module CompanyApi
     base_uri ENV['COMPANY_API_URL']
 
     def initialize(
-      seed = ENV['COMPANY_API_SEED'],
-      quantity = ENV['COMPANY_API_QUANTITY']
+      seed: ENV['COMPANY_API_SEED'],
+      quantity: ENV['COMPANY_API_QUANTITY']
     )
       @options = { query: { _seed: seed, _quantity: quantity } }
     end
